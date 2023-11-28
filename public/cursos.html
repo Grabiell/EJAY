@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJAY</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="imagex/png" href="img/logobarra.png">
+    <style>
+      p {
+            margin-left: 30px;
+            margin-right: 10px;
+            text-align: justify;
+        }
+
+      h1 {
+            text-align: left;
+            margin-left: 30px;
+            margin-top: 5px;
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+<!-- Barra de navegação -->
+<ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a class="ativo" href="cursos.html">Cursos</a></li>
+  <li><a href="ferramentas.html">Ferramentas</a></li>
+  <li><a href="sites.html">Sites</a></li>
+</ul>
+
+<!-- Div contendo a apresentação da página e o formulario para enviar a avaliação do curso -->
+<div class="conteudo">
+  <h1>CURSOS</h1>
+  <p>Explore e descubra todos os cursos disponíveis dentro do EJAY.</p>
+  <h2>Avalie os Cursos!</h2>
+  <!-- Formulário para avaliação dos cursos -->
+  <form action="https://formsubmit.co/5cfc52e59caf01a6c47d74d7ff986bc4" method="POST">
+      <input type="text" name="name" placeholder="Digite seu nome" required>
+      <input type="text" name="email" placeholder="Digite o seu e-mail" required>
+      <textarea name="mensagem" id="mensg" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+
+      <input type="hidden" name="_subject" value="Nova Avaliação!">
+      <input type="text" name="_honey" style="display:none">
+      <input type="hidden" name="_captcha" value="false">
+  </form>
+
+</div>
+</div>
+
+<!-- Divs apresentando as áreas e os cursos disponiveis dentro da área -->
+
+<!-- Cursos da área de Programação -->
+<div class="row">
+  <h1 class="titulo">Programação</h1>
+  <!-- Curso de HTML CSS JavaScript -->
+  <a href="https://www.youtube.com/watch?v=c45nPVwMVzQ&list=PL2Fdisxwzt_ebZYgPFL8KeWqBhkF1Q8oe">
+    <div class="coluna">
+      <h2>HTML CSS JavaScript</h2>
+    </div>
+  </a>
+  <!-- Curso de React -->
+    <a href="https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO">
+      <div class="coluna">
+        <h2>React</h2>
+      </div>
+    </a>
+    <!-- Curso de jQuery -->
+    <a href="https://www.youtube.com/watch?v=i0wey6VkLf0&list=PLx4x_zx8csUiOBWiybY2cIjhNLIUn4JCn">
+      <div class="coluna">
+        <h2>jQuery</h2>
+      </div>
+    </a>
+</div>
+
+<div class="row">
+  <!-- Curso de Python -->
+  <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0">
+    <div class="coluna">
+      <h2>Python</h2>
+    </div>
+  </a>
+  <!-- Curso de PHP -->
+    <a href="https://www.youtube.com/watch?v=TfsO0BGvGn0&list=PLHz_AreHm4dlFPrCXCmd5g92860x_Pbr_">
+      <div class="coluna">
+        <h2>PHP</h2>
+      </div>
+    </a>
+    <!-- Curso de Swift -->
+    <a href="https://www.youtube.com/watch?v=MnL3-a3eKNQ&list=PLJ0AcghBBWShgIH122uw7H9T9-NIaFpP-">
+      <div class="coluna">
+        <h2>Swift</h2>
+      </div>
+    </a>
+</div>
+
+<!-- Cursos da área de Design -->
+<div class="row">
+  <h1 class="titulo">Design</h1>
+  <!-- Curso de UI -->
+  <a href="https://www.youtube.com/watch?v=CIGiF7ZUgLE&list=PLwgL9IEA0PxWjVuQrP_E760f6JpJssTXD">
+    <div class="coluna">
+      <h2>UI</h2>
+    </div>
+  </a>
+  <!-- Curso de UX -->
+    <a href="https://www.youtube.com/watch?v=ugPM7j9AmFQ&list=PLwgL9IEA0PxXwYSLBFSEuxZigG07_iet-">
+      <div class="coluna">
+        <h2>UX</h2>
+      </div>
+    </a>
+    <!-- Curso de Design Gráfico -->
+    <a href="https://www.youtube.com/watch?v=xTlJZRtDC6s&list=PLwgL9IEA0PxUl0eXSqqI_78rvlog15lHl">
+      <div class="coluna">
+        <h2>Design Gráfico</h2>
+      </div>
+    </a>
+</div>
+<div class="row">
+  <!-- Curso de Edição de Vídeo -->
+  <a href="https://www.youtube.com/watch?v=UbUVKCRMVq4&list=PLltHgIJnfTsAiRRDDYGOl3cdg-m6tTnSl">
+    <div class="coluna">
+      <h2>Edição de Vídeo</h2>
+    </div>
+  </a>
+  <!-- Curso de 3D -->
+    <a href="https://www.youtube.com/watch?v=ohJofHU68HE&list=PLSfAgw-TN0BJ3G0T3zYCpa0H-xxc-wJ-g">
+      <div class="coluna">
+        <h2>3D</h2>
+      </div>
+    </a>
+  <!-- Curso de After Effects -->
+    <a href="https://www.youtube.com/watch?v=O_lAdlwgA2s&list=PLBfaJVipdCd8UtH2tVcvvQE1ibMvpS1tR">
+      <div class="coluna">
+        <h2>After Effects</h2>
+      </div>
+    </a>
+</div>
+
+<!-- Cursos da área de Data Cience -->
+<div class="row">
+  <h1 class="titulo">Data Cience</h1>
+  <!-- Curso de Ciência de Dados -->
+  <a href="https://www.youtube.com/watch?v=z6jbqkmshig&list=PLxI8Can9yAHfsMKsLoHT5rKwOEffPgyWe">
+    <div class="coluna">
+      <h2>Ciência de Dados</h2>
+    </div>
+  </a>
+  <!-- Curso de Machine Learning -->
+    <a href="https://www.youtube.com/watch?v=p_SmODmFRUw&list=PL-t7zzWJWPtzhZtI-bWWHFtCfxtjmBdIW">
+      <div class="coluna">
+        <h2>Machine Learning</h2>
+      </div>
+    </a>
+    <!-- Curso de Business Intelligence -->
+    <a href="https://www.youtube.com/watch?v=U6tzlAShVA0&list=PLPP4r1UqnhGoahVg6ntCliIUp3anYFyHl">
+      <div class="coluna">
+        <h2>Business Intelligence</h2>
+      </div>
+    </a>
+</div>
+<div class="row">
+  <!-- Curso de Banco de Dados -->
+  <a href="https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r">
+    <div class="coluna">
+      <h2>Banco de Dados</h2>
+    </div>
+  </a>
+  <!-- Curso de Feature Engineering -->
+    <a href="https://www.youtube.com/watch?v=sluoVhT0ehg&list=PLKnIA16_RmvYXWH_E6PuVLLHHTWXwwDN7">
+      <div class="coluna">
+        <h2>Feature Engineering</h2>
+      </div>
+    </a>
+  <!-- Curso de Big Data -->
+    <a href="https://www.youtube.com/watch?v=NmzNlov-HOI&list=PLFJLvHW_AAoCgaQLMu9tgYyOtc0m3-tDV">
+      <div class="coluna">
+        <h2>Big Data</h2>
+      </div>
+    </a>
+</div>
+
+<!-- Rodape da Página -->
+<footer>
+  <div class="container">
+      <div class="footer-section">
+          <ul>
+              <li><a href="termos-de-servico.html">Termos de Serviço</a></li>
+              <li><a href="https://github.com/Grabiell">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/gabriel-murta-8a3a83239/">LinkedIn</a></li>
+              <li><a href="https://brasil.un.org/pt-br/sdgs">ODS</a></li>
+          </ul>
+          <p>&copy; 2023 Ejay. Todos os direitos reservados.</p>
+      <p>Contato: gabriellmurta@outlook.com</p>
+      </div>
+  </div>
+</footer>
+</body>
+</html>
+
+<script src="https://unpkg.com/gsap@3.9.0/dist/gsap.min.js"></script>
+<script src="script.js"></script>
